@@ -1,0 +1,7 @@
+import colorama
+from colorama import Fore, Back, Style
+colorama.init(autoreset=True)
+
+print(Fore.BLUE+Back.YELLOW+"Hi My name is Vartika Shah "+ Fore.YELLOW+ Back.BLUE+"My age is 19 ")
+print(Back.CYAN+"You are currently viewing my python project")
+print(Fore.RED + Back.GREEN+ "Thanks for viewing my python project")
